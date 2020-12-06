@@ -1,0 +1,143 @@
+.html{
+    overflow-x: hidden !important;
+}
+.body{
+    color: #020403;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+.highlight{
+    color: #000080 !important;
+}
+
+/* Navbar */
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-item a{
+    color: #020403;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* Navbar Ends */
+
+/* Banner */
+.banner{
+    padding: 75px 50px 100px 30px;
+    background: url('../img/ellipses.png') right;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.banner h1{
+    font-weight: 900;
+    padding-top: 75px;
+    font-size: 60px;
+}
+.banner-button{
+    text-align: center;
+    padding-top: 50px;
+}
+.banner-btn{
+    background-color: red;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border-radius: 10px;
+    /* margin-top: 100px !important;  */
+}
+.vid_box{
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #b92b27;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.vid{
+    width: 100%;
+    background-color: #ffffff !important;
+    height: 100%;
+}
+.achievements img{
+    display: inline;
+}
+.achievements-card{
+    display: flex;
+}
+.achievements{
+    padding: 150px 50px 0px 50px !important;
+    margin-left: 50px;
+}
+.details{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 25px 10px 20px 10px;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow:5px 5px 4px 0px grey ;
+}
+/* Banner Ends */
+
+/* Doubts */
+.doubts{
+    padding-bottom: 100px;
+    background: url('../img/ellipses.png') right top;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+.doubts-row{
+    padding-left: 30px;
+}
+.doubts h1{
+    font-weight: 900;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+.doubt-details{
+    display: flex;
+}
+.doubts img{
+    padding: 50px;
+}
+.doubt-details img{
+    padding: 0px;
+}
+.doubt-details .info{
+    padding: 5px 10px 5px 20px;
+}
+.doubt-details .info h4{
+    font-weight: 700;
+}
+.mid-title{
+    padding-top: 50px;
+    text-align: center;
+}
+.mid-title h3{
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+.img-area{
+    border-radius: 50%;
+    border: 1px solid #020403;
+}
+/* Doubts ends */
+
+/* Classes */
+.classes{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url('../img/ellipses.png') left top;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.classes h1{
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.classes .mid-title h4{
+    font-weight: 700;
+}
