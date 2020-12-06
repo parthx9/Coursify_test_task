@@ -141,3 +141,58 @@
 .classes .mid-title h4{
     font-weight: 700;
 }
+
+/* Classes ends */
+/* Prep */
+.prep{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url('../img/ellipses.png') right top, url('../img/ellipses.png') left bottom ;
+    background-size: 60%, 60%;
+    background-repeat: no-repeat, no-repeat;
+}
+.prep h1{
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.prep .prep-details{
+    padding: 50px 0px 50px 50px;
+}
+.prep .prep-details h2{
+    font-weight: 900;
+    font-size: 40px;
+    color: #000080;
+}
+.prep .prep-details p{
+    font-size: 22px;
+}
+.prep-btn{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* Prep ends */
+
+/* Subjects */
+.subjects{
+    padding-bottom: 100px;
+    background: url('../img/ellipses.png') right top;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+.subjects h1{
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: #000080;
+}
+.sub-card{
+    text-align: center;
+    width: 80%;
+    margin: 10px;
+    padding: 15px 0px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 0px gray;
+}
