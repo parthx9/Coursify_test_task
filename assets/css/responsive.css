@@ -1,0 +1,51 @@
+@media (max-width: 768px){
+    .banner, .books, .subjects, .boards, .reviews, .prep, .classes, .doubts{
+        background-color: #F4F4F4;
+    }
+    .arrow{
+        display: none;
+    }
+    .p-r{
+        padding-top: 2.5rem;
+    }
+    .banner h1{
+        padding-top: 0px;
+    }
+    .vid_box{
+        margin-top: 50px;
+        height: 100%;
+    }
+    .achievements-card{
+        margin-left: 50px;
+    }
+    .achievements{
+        margin-left: 0px;
+    }
+    .subjects .sub-card{
+        width: 90%;
+    }
+    .prep-details{
+        padding: 20px!important;
+    }
+    .achievements-card img{
+        height: 100%;
+    }
+    .achievements-card .details{
+        padding-bottom: 0px;
+    }
+    .achievements-card .details p{
+        padding-bottom: 0px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 544px){
+    .achievements-card{
+        margin-left: 0px;
+        padding: 0px;
+        padding-left: 0px;
+    }
+    .achievements{
+        padding-left: 0 !important;
+    }
+}
